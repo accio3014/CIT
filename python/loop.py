@@ -1,0 +1,111 @@
+# for문
+# for 변수 in range(start, end, step):
+#     반복할 코드
+# 위 형식이 반복문의 기본 형태
+# range(start, end, step) 여기서 start, end, step은 정수(ex. range(1, 5, 2))
+# start부터 end까지(end는 포함 안됨) step 만큼 증가/감소된 값을 변수에 넣고 반복
+# start랑 step은 생략이 가능.
+# start를 생략하면 0
+# step을 생략하면 1
+# range(5)          => start와 step 둘다 생략된 상태
+# range(0, 5)       => step가 생략된 상태
+# range(0, 5, 1)    => 완전한 상태
+# 위 세가지 모양만 있음
+
+# for i in range(0, 5, 1):  # i변수에 범위(0,1,2,3,4)를 넣으면서 반복. 총 5번 반복
+#     print(i)
+
+# for i in range(0, 5, 1):
+#     print('hello')
+
+
+# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ #
+
+
+# while문
+# while(조건식):
+#       코드
+# 위 형식으로 사용
+# if문과 비슷하게 조건식이 True일 경우 실행됨
+
+# i = 0
+# while(i < 5):
+#     print(i)
+#     i += 1      # i = i +1 이랑 같은 뜻 
+
+
+# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ #
+
+
+# 무한반복
+# python에서는
+# while(True):
+# 위 코드를 이용하여 무한 반복이 가능함
+
+
+# continue 와 break
+# continue
+# continue를 만나는 순간 다음 반복 진행
+
+# for i in range(0, 10, 1):
+#     if(i%2 == 0):
+#         continue        # 짝수일 때 다음 반복으로, 즉 짝수는 출력 안됨
+#     print(i)
+
+
+# break
+# break를 만나는 순간 반복문 종료
+# 보통의 경우 break는 if랑 같이 사용
+
+# i = 0
+# while(True):
+#     print(i)
+#     if(i == 10):
+#         break
+
+#     i += 1
+    
+
+# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ #
+
+
+while(True):
+    print("메뉴를 선택해주세요")
+    print("1. hello 출력")
+    print("2. hi 출력")
+    print("3. Exit")
+    menu = int(input())
+
+    if(menu == 1):
+        print("hello")
+    elif(menu == 2):
+        print("hi")
+    elif(menu == 3):
+        print("메뉴 프로그램을 종료 합니다.")
+        break
+    else:
+        print("잘못 입력했습니다. 1~3 숫자를 입력해주세요.\n\n")
+        continue
+
+    print()
+    print()
+
+
+
+# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ #
+
+
+# 중첩 반복문
+# 반복문 내부에 반복문이 있는 형식
+
+# for x in range(1, 10, 1) :          # 총 9번 반복
+# 	for y in range(1, 10, 1) :      # 총 81번 반복
+# 		print(x, "*", y, "=", x*y)
+
+
+
+# * * * * *
+# * * * *
+# * * *
+# * *
+# *
