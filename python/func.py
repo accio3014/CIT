@@ -48,10 +48,11 @@
 
 
 # 재귀함수
+# 함수 내부에서 자기자신을 호출하는 함수
 # def function() :
 #     print('Hello')
 #     input()
-#     function()
+#     function()        # 자기 자신을 호출
 
 # function()
 
@@ -63,8 +64,8 @@ def fibonacci(a, b) :
     if(a < 100):
         print(a, end='  ')
         return fibonacci(b, c)      # return None이 계속 반복되어서 호출된 함수들이 종료 된다.
-    else :
-        return 
+    else:
+        return                      # return 하는 값 또는 변수가 없기 때문에 None이 return 됨
 
 fibonacci(1, 1)
 print()

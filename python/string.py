@@ -79,58 +79,57 @@
 # +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ #
 
 
-# name = ['bell', 'sona', 'rick', 'tony', 'jade']
-# score = [52, 96, 32, 73, 85]
-# print(name)
-# print(score)
-# print()
+name = ["bell", "sona", "rick", "tony", "jade"]
+score = [52, 96, 32, 73, 85]
+print(name)
+print(score)
+print()
 
 
-# print('Q1. name에서 “sona”를 “kona”로 바꾸시오. replace() 함수 이용')
-# if('sona' in name):                                 # 먼저 'sona'가 리스트에 있는지 확인
-#     idx = name.index('sona')                        # 값 변경을 위한 'sona'의 인덱스 번호 찾아 idx 변수에 저장
-#     name[idx] = name[idx].replace('sona', 'kona')   # replace()함수를 이용하여 'sona'를 'kona'로 변경
-# else:                                               # 'sona'가 리스트에 없는 경우
-#     print('sona 없음')
-# print(name)
-# print()                                             
+print('Q1. name에서 “sona”를 “kona”로 바꾸시오. replace() 함수 이용')
+if("sona" in name):                                 # 먼저 'sona'가 리스트에 있는지 확인
+    idx = name.index("sona")                        # 값 변경을 위한 'sona'의 인덱스 번호 찾아 idx 변수에 저장
+    name[idx] = name[idx].replace("sona", "kona")   # replace()함수를 이용하여 'sona'를 'kona'로 변경
+else:                                               # 'sona'가 리스트에 없는 경우
+    print("sona 없음")
+print(name)
+print()                                             
 
-# print('Q2. name의 모든 “o”를 “ecoto”로 바꾸시오. replace() 함수 이용')
-# for i in name:                                      # name 리스트의 값을 전체 반복 하여 변수i에 저장
-#     if('o' in i):                                   # i에 'o'가 있을경우 실행, 즉 문자열 안에 'o'가 있으면 실행
-#         idx = name.index(i)                         # 값 변경을 위해 'o'가 들어간 문자열의 인덱스 번호를 찾아 idx 변수에 저장
-#         name[idx] = i.replace('o', 'ecoto')         # replace()함수를 통해 변경된 'o'를 인덱스 번호를 통해 값 변경
+print("Q2. name의 모든 'o'를 \"ecoto\"로 바꾸시오. replace() 함수 이용")
+for i in name:                                      # name 리스트의 값을 전체 반복 하여 변수i에 저장
+    if('o' in i):                                   # i에 'o'가 있을경우 실행, 즉 문자열 안에 'o'가 있으면 실행
+        idx = name.index(i)                         # 값 변경을 위해 'o'가 들어간 문자열의 인덱스 번호를 찾아 idx 변수에 저장
+        name[idx] = i.replace('o', "ecoto")         # replace()함수를 통해 'o'를 "exoto"로 값 변경          
+print(name)
+print()
+
+print("Q3. name의 원소들을 모두 출력하시오.")
+print(name)
+print()
+
+print("Q4. name 리스트에서 \"co\"가 있으면 분할하여 name 리스트의 맨 뒤에 추가하시오.")
+for i in name:                                      # name 리스트의 값을 전체 반복 하여 변수i에 저장
+    if("co" in i):                                  # i에 'co'가 있을경우 실행, 즉 문자열 안에 'co'가 있으면 실행
+        idx = name.index(i)                         # 값 삭제 및 변경을 위해 'co'가 들어간 문자열의 인덱스 번호를 찾아 idx 변수에 저장
+        sp = i.split("co")                          # 'co'가 들어간 문자열을 'co'를 기준으로 나눔, 
+                                                    # split()를 사용하면 나눠진 문자열은 리스트 형태로 sp 변수에 저장
+        del(name[idx])                              # 'co'가 들어간 문자열을 리스트에서 삭제
+        # name = name + sp                            # 'co'를 기준으로 나눠진 리스트(sp)와 기존의 리스트(name)를 더함
+                                                    # append를 안하는 이유는 append를 사용할 경우 2중 리스트가 됨
                                                     
-# print(name)
-# print()
-
-# print('Q3. name의 원소들을 모두 출력하시오.')
-# print(name)
-# print()
-
-# print('Q4. name 리스트에서 "co"가 있으면 분할하여 name 리스트의 맨 뒤에 추가하시오.')
-# for i in name:                                      # name 리스트의 값을 전체 반복 하여 변수i에 저장
-#     if('co' in i):                                  # i에 'co'가 있을경우 실행, 즉 문자열 안에 'co'가 있으면 실행
-#         idx = name.index(i)                         # 값 삭제 및 변경을 위해 'co'가 들어간 문자열의 인덱스 번호를 찾아 idx 변수에 저장
-#         sp = i.split('co')                          # 'co'가 들어간 문자열을 'co'를 기준으로 나눔, 
-#                                                     # split()를 사용하면 나눠진 문자열은 리스트 형태로 sp 변수에 저장
-#         del(name[idx])                              # 'co'가 들어간 문자열을 리스트에서 삭제
-#         # name = name + sp                            # 'co'를 기준으로 나눠진 리스트(sp)와 기존의 리스트(name)를 더함
-#                                                     # append를 안하는 이유는 append를 사용할 경우 2중 리스트가 됨
-                                                    
-#         for k in sp:                                # 반복문을 사용하여 분할된 문자열이 있는 sp리스트의 값을 name 변수에 저장
-#             name.append(k)
-# print(name)
-# print()
+        for k in sp:                                # 반복문을 사용하여 분할된 문자열이 있는 sp리스트의 값을 name 변수에 저장
+            name.append(k)
+print(name)
+print()
 
 
-# print('Q5. name의 원소들을 모두 출력하시오.')
-# print(name)
-# print()
+print('Q5. name의 원소들을 모두 출력하시오.')
+print(name)
+print()
 
-# print('Q6 score의 평균을 구하고 출력하시오.')
-# sum = sum(score) / len(score)
-# print(sum)
+print('Q6 score의 평균을 구하고 출력하시오.')
+sum = sum(score) / len(score)
+print(sum)
 
 
 # +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ #
@@ -138,43 +137,47 @@
 
 # 문자열 합치기
 # + 기호를 이용하여 문자열을 합칠 수 있음
-# a = 'hi'
-# b = ' hello'
+# a = "hi"
+# b = " hello"
 # c = a + b
 # print(c)
+
+# 문자와 숫자의 연산
+# 문자와 숫자의 경우 곱하기(*)만 가능
+# print("hello " * 5)
 
 
 # +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ #
 
 
-print('Q1. "abc"를 값으로 가지는 문자열 변수 A1을 만드시오')
-A1 = 'abc'
-print(A1)
-print()
+# print('Q1. "abc"를 값으로 가지는 문자열 변수 A1을 만드시오')
+# A1 = 'abc'
+# print(A1)
+# print()
 
-print('Q2. "ABC"를 값으로 가지는 문자열 변수 A2를 만드시오')
-A2 = 'ABC'
-print(A2)
-print()
+# print('Q2. "ABC"를 값으로 가지는 문자열 변수 A2를 만드시오')
+# A2 = 'ABC'
+# print(A2)
+# print()
 
-print('Q3. A1과 A2를 합쳐 "abcABC"를 값으로 가지는 문자열 변수 B1을 만드시오')
-B1 = A1 + A2
-print(B1)
-print()
+# print('Q3. A1과 A2를 합쳐 "abcABC"를 값으로 가지는 문자열 변수 B1을 만드시오')
+# B1 = A1 + A2
+# print(B1)
+# print()
 
-print('Q4. B1에서 2번째부터 4번째 문자 "cAB"와 "LE"를 합쳐 만든 변수 C1를 만드시오')
-C1 = B1[2:5] + 'LE'
-print(C1)
-print()
+# print('Q4. B1에서 2번째부터 4번째 문자 "cAB"와 "LE"를 합쳐 만든 변수 C1를 만드시오')
+# C1 = B1[2:5] + 'LE'
+# print(C1)
+# print()
 
-print('Q5. C1의 글자를 대문자로 고치시오')
-C1 = C1.upper()
-print(C1)
-print()
+# print('Q5. C1의 글자를 대문자로 고치시오')
+# C1 = C1.upper()
+# print(C1)
+# print()
 
-print('Q6. C1과 "CAR"을 합쳐서 출력하시오')
-print(C1+'CAR')
-print()
+# print('Q6. C1과 "CAR"을 합쳐서 출력하시오')
+# print(C1+'CAR')
+# print()
 
 
 # +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ #
