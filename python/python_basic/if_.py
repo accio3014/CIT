@@ -1,3 +1,6 @@
+# if_.py
+
+
 # 비교 연산자
 # 비교 연산의 결과는 무조건 True 또는 False로 나옴
 # ==    : 같으면 True, 다르면 False
@@ -24,26 +27,30 @@
 # else:
 #     위의 모든 조건식이 False일 경우 실행할 코드
 
-# [if만 사용한 조건문]
+
+# [if만 사용한 경우]
 # if(조건식):
 #     조건식이 True일 경우 실행할 코드
 
-# [if랑 elif만 사용한 조건문]
+
+# [if랑 elif만 사용한 경우]
 # if(조건식):
 #     조건식이 True일 경우 실행할 코드
 # elif(조건식):
 #     조건식이 True일 경우 실행할 코드
 
-# [if랑 else만 사용한 조건문]
+
+# [if랑 else만 사용한 경우]
 # if(조건식):
 #     조건식이 True일 경우 실행할 코드
 # else:
 #     위의 모든 조건식이 False일 경우 실행할 코드
 
+
 # 위 형식들의 조건문이 있으며
 # if는 무조건 1개,
 # elif는 0개 부터 무한대,
-# else는 0개 또는 1개를 사용하여 조건문을 구성할 수 있으며, 
+# else는 0개 또는 1개를 사용하여 조건문을 구성할 수 있음
 # 조건문은 조건문 안에 중첩해서 사용할 수 있다.
 
 
@@ -57,18 +64,20 @@
 # 59 ~      : D
 # 조건식으로 표현해보자.
 
-score = int(input())
+# score = int(input())
 
-if(100 >= score >= 90):
-    print('A')
-elif(89 >= score >= 70):
-    print('B')
-elif(69 >= score >= 60):
-    print('C')
-elif(59 >= score >= 0):
-    print('D')
-else :
-    print("Please enter a score between 0 and 100.")
+# if(100 >= score >= 90):     # 조건문이 True여서 실행될 경우 아래의 조건은 더 보지 않고 if 종료, 즉 조건문은 무조건 한개만 동작함
+#     print('A')              
+# elif(89 >= score >= 70):
+#     print('B')
+# elif(69 >= score >= 60):
+#     print('C')
+# elif(59 >= score >= 0):
+#     print('D')
+# else :
+#     print("Please enter a score between 0 and 100.")
+
+# print("End.")
 
 
 # ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ #
