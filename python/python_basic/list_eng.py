@@ -27,15 +27,36 @@
 # ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ #
 
 
-list1 = ["abc", "dfg", "hij", 123, 456 ]
-print(list1)
-print()
+# list1 = ["abc", "dfg", "hij", 123, 456 ]
+# print(list1)
+# print()
 
-print("Q1. Change the 1st element of list1 to 'park'.")
-list1 = 'park'
-print(list1)
-print()
+# print("Q1. Change the 1st element of list1 to 'park'.")
+# list1[1] = 'park'
+# print(list1)
+# print()
 
+
+
+
+# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ #
+
+
+# for i in range(1, 9, 2):
+#     print(i)
+
+# list1 = [1, 3, 5, 7]
+# for i in list1:         # Can insert a list variable instead of range() in for loop.
+#     print(i)            # Get the elements of a list one by one
+
+
+# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ #
+
+name = ["Kim", "Gu", "Koo", "Seong"]
+score = [92, 96, 98, 100]
+
+add_score = 92 + 96 + score[2] + 100
+print(add_score)
 
 
 
