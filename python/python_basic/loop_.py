@@ -1,7 +1,10 @@
+# loop_.py
+
 # for문
 # for 변수 in range(start, end, step):
 #     반복할 코드
-# 위 형식이 반복문의 기본 형태
+# 위 형식이 반복문의 기본 형태이며, 중첩이 가능함
+
 # range(start, end, step) 여기서 start, end, step은 정수(ex. range(1, 5, 2))
 # start부터 end까지(end는 포함 안됨) step 만큼 증가/감소된 값을 변수에 넣고 반복
 # start랑 step은 생략이 가능.
@@ -12,11 +15,11 @@
 # range(0, 5, 1)    => 완전한 상태
 # 위 세가지 모양만 있음
 
-# for i in range(0, 5, 1):  # i변수에 범위(0,1,2,3,4)를 넣으면서 반복. 총 5번 반복
-#     print(i)
+# for i in range(0, 5, 1):    # i변수에 범위(0,1,2,3,4)를 넣으면서 반복. 총 5번 반복
+#     print(i)                # 반복할 코드에 변수 사용
 
 # for i in range(0, 5, 1):
-#     print('hello')
+#     print('hello')          # 반복할 코드에 변수 사용 X
 
 
 # ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ #
@@ -28,10 +31,10 @@
 # 위 형식으로 사용
 # if문과 비슷하게 조건식이 True일 경우 실행됨
 
-# i = 0
-# while(i < 5):
-#     print(i)
-#     i += 1      # i = i +1 이랑 같은 뜻 
+i = 0
+while(i < 5):
+    print(i)
+    i += 1      # i = i +1 이랑 같은 뜻, 누적 덧셈
 
 
 # ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ #
@@ -69,26 +72,26 @@
 # ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ #
 
 
-while(True):
-    print("메뉴를 선택해주세요")
-    print("1. hello 출력")
-    print("2. hi 출력")
-    print("3. Exit")
-    menu = int(input())
+# while(True):
+#     print("메뉴를 선택해주세요")
+#     print("1. hello 출력")
+#     print("2. hi 출력")
+#     print("3. Exit")
+#     menu = int(input())
 
-    if(menu == 1):
-        print("hello")
-    elif(menu == 2):
-        print("hi")
-    elif(menu == 3):
-        print("메뉴 프로그램을 종료 합니다.")
-        break
-    else:
-        print("잘못 입력했습니다. 1~3 숫자를 입력해주세요.\n\n")
-        continue
+#     if(menu == 1):
+#         print("hello")
+#     elif(menu == 2):
+#         print("hi")
+#     elif(menu == 3):
+#         print("메뉴 프로그램을 종료 합니다.")
+#         break
+#     else:
+#         print("잘못 입력했습니다. 1~3 숫자를 입력해주세요.\n\n")
+#         continue
 
-    print()
-    print()
+#     print()
+#     print()
 
 
 
