@@ -1,22 +1,60 @@
-# func.py
+# func_.py
+
+# 함수(function)
+# 함수란 어떤 기능을 하는 것으로 크게 이미 있는 함수와 직접 만든 함수가 있다.
+
+# def function_name(parameter):
+#       codes...
+#       return value(variavle)
+
+# 위 형식으로 함수를 직접 만들 수 있으며 만든 함수 실행의 경우 아래와 같음
+# funcation_name(argument)
+
+# parameter : 함수 내부에서 사용하는 변수
+# return    : 함수를 종료하며, 특정 값을 함수를 실행한 곳으로 돌려줄 수 있음
+# argument  : 함수를 실행할 때 넘겨주는 값
+# parameter, return은 필수가 아님
+# 함수를 정의할 때 parameter의 수와 함수를 실행할때의 argument의 개수는 같아야 함
+
+
+# def a():
+#     print("Hello")
+
+# a()
+
+
+def b(name):
+    print(name,"Hi")
+
+b("Jeong")
+
+
+def c(a):
+    return a+10
+
+var = c(5)
+print(var)
+
+
+
+# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ #
+
 
 # 함수를 선언(정의), return을 사용한 경우
-# def bmi(weight, height):
-#     BMI = weight / height / height
+def bmi_return(weight, height):
+    BMI = weight / height / height
 
-#     return BMI
+    return BMI
 
+# return 없이 함수를 선언
+def bmi_no_return(weight, height):
+    BMI = weight / height / height
 
-# # 함수를 호출(실행)
-# print(bmi(67, 1.78))
+    print(BMI)
 
-# # return 없이 함수를 선언
-# def bmi(weight, height):
-#     BMI = weight / height / height
-
-#     print(BMI)
-
-# bmi(67, 1.78)
+# 함수를 호출(실행)
+print(bmi_return(67, 1.78))
+bmi_no_return(67, 1.78)
 
 
 
@@ -59,16 +97,16 @@
 
 # 피보나치 수
 # https://pythontutor.com/render.html#mode=display
-def fibonacci(a, b) :
-    c = a + b
-    if(a < 100):
-        print(a, end='  ')
-        return fibonacci(b, c)      # return None이 계속 반복되어서 호출된 함수들이 종료 된다.
-    else:
-        return                      # return 하는 값 또는 변수가 없기 때문에 None이 return 됨
+# def fibonacci(a, b) :
+#     c = a + b
+#     if(a < 100):
+#         print(a, end='  ')
+#         return fibonacci(b, c)      # return None이 계속 반복되어서 호출된 함수들이 종료 된다.
+#     else:
+#         return                      # return 하는 값 또는 변수가 없기 때문에 None이 return 됨
 
-fibonacci(1, 1)
-print()
+# fibonacci(1, 1)
+# print()
 
 
 # ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ #
