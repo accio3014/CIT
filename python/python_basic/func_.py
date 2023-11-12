@@ -17,21 +17,17 @@
 # 함수를 정의할 때 parameter의 수와 함수를 실행할때의 argument의 개수는 같아야 함
 
 
-# def a():
-#     print("Hello")
-
-# a()
-
+def a():
+    print("Hello")
 
 def b(name):
     print(name,"Hi")
 
-b("Jeong")
-
-
 def c(a):
     return a+10
 
+a()
+b("Jeong")
 var = c(5)
 print(var)
 
