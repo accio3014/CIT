@@ -17,19 +17,19 @@
 # 함수를 정의할 때 parameter의 수와 함수를 실행할때의 argument의 개수는 같아야 함
 
 
-def a():
-    print("Hello")
+# def a():
+#     print("Hello")
 
-def b(name):
-    print(name,"Hi")
+# def b(name):
+#     print(name,"Hi")
 
-def c(a):
-    return a+10
+# def c(a):
+#     return a+10
 
-a()
-b("Jeong")
-var = c(5)
-print(var)
+# a()
+# b("Jeong")
+# var = c(5)
+# print(var)
 
 
 
@@ -37,35 +37,77 @@ print(var)
 
 
 # 함수를 선언(정의), return을 사용한 경우
-def bmi_return(weight, height):
-    BMI = weight / height / height
+# def bmi_return(weight, height):
+#     BMI = weight / height / height
 
-    return BMI
+#     return BMI
 
 # return 없이 함수를 선언
-def bmi_no_return(weight, height):
-    BMI = weight / height / height
+# def bmi_no_return(weight, height):
+#     BMI = weight / height / height
 
-    print(BMI)
+#     print(BMI)
 
 # 함수를 호출(실행)
-print(bmi_return(67, 1.78))
-bmi_no_return(67, 1.78)
+# print(bmi_return(67, 1.78))
+# bmi_no_return(67, 1.78)
 
 
 
 # ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ #
 
 
-# 함수 내부에 있는 변수를 함수 밖에서 참조하는 방법
-# global 변수명
-# 함수 내부에 참조할 변수를 global 키워드를 사용하여 선언 하면
-# 외부에서 함수 내부에 있는 변수를 참조할 수 있음
-# A함수 내부에 있는 값을 B함수에서 사용할 때 많이 씀
-# global bmi                              # global 키워드를 사용하여 변수 선언
+# return의 경우 보통 함수끼리 서로 값을 공유할 때 사용
+
+# def check_score(score):     # 점수들 중 50점 이상의 점수를 구분하여 리스트로 리턴
+#     over = []
+#     for i in score:
+#         if(i >= 50):
+#             over.append(i)
+
+#     return over
+
+
+# def average(score):         # 평균을 구함
+#     print(sum(score) / len(score))
+
+# score = [51, 99, 78, 34, 75, 22, 12]
+# over_50 = check_score(score)    # check_score 함수를 통해서 50점 이상인 점수를 over_50 변수에 저장
+# average(over_50)                # 50점 이상인 점수의 평균을 구함
+
+
+# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ #
+
+
+# 변수는 크게 local, global 2가지가 있음
+# local 변수    : 함수 내부에서 만들었고 함수 내부에서만 쓰이는 변수
+# global 변수   : 함수 밖에서 만들었고 함수 내외부에서 둘다 사용 가능
+# 변수의 이름과 local, global은 상관 없으며, 변수는 기본적으로 global 변수를 얘기함
+
+# a = 10          # global 변수
+
+# def test():
+#     a = 5       # local 변수
+#     b = 20      # local 변수
+
+# test()
+# print(a)        # test 함수를 실행해도 a 변수의 값은 변화가 없음
+# print(b)        # 변수 b는 test함수에서만 사용하기 때문에 함수 밖에서 참조를 하는 경우 에러 발생
+
+
+
+# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ #
+
+
+# 함수 밖에 있는 변수의 값을 함수 내부에서 변경하는 방법
+# global 변수
+# 위 형식으로 함수 내부에서 함수 밖에 있는 변수의 값을 변경할 수 있음
+# global을 사용안해도 함수 내부에서 값을 참조는 가능하지만 값 변경은 불가능
+
+# bmi = 0                                   # global 변수
 
 # def BMI(height, weight):
-#     global bmi                          # 함수 내부에서 global 사용(이거 안쓰면 안됨)
+#     global bmi                            # 함수 내부에서 global 사용하여 값을 변경할 수 있음(이거 안쓰면 안됨)
 #     # global bmi = 0                    # global 키워드에서 변수에 값을 넣을 수는 없음 (오류)
     
 #     height = height / 100
@@ -73,9 +115,21 @@ bmi_no_return(67, 1.78)
 
 #     return bmi
 
-# print(BMI(178, 80))
-# print(bmi)                              # bmi라는 변수를 global로 지정했기 때문에 함수 내부에 있는 
-#                                         # 값을 참조 가능
+# print(bmi)
+# print(BMI(178, 80))                     # BMI 함수에서 리턴된 값을 출력
+# print(bmi)                              # BMI 함수에서 global 키워드를 이용하여 bmi 변수의 값을 변경함
+
+
+# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ #
+
+
+# def star(n):
+#     # print("*"+" "*n+"*"+" "*(5-n)+"*")
+#     blank = ' '
+#     print("*%s*%s*" % (blank*n, blank*(5-n)))
+
+# for i in range(0, 6, 1):
+#     star(i)
 
 
 # ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ #
