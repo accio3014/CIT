@@ -1,4 +1,4 @@
-# dictionary.py
+# dictionary_.py
 
 # 딕셔너리(dictionaries)란 키와 값으로 이루어진 것
 # 딕셔너리는 인덱스에 대한 개념이 없어 값을 가지고 올 때는 키를 이용해서 값을 참조한다.
@@ -92,28 +92,26 @@
 # +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ #
 
 
-Americano = {'Starlucks' : 3700, 'Mollys' : 4100, 'Anzelinus' : 4900, 'Coffeejean' : 4800}
-print('1. 모든 브랜드를 출력하시오.')
-print('1 : ', end='')
-for i in Americano:
-    print(i, end=' ')
-print()
-print()
+# Americano = {'Starlucks' : 3700, 'Mollys' : 4100, 'Anzelinus' : 4900, 'Coffeejean' : 4800}
+# print('1. 모든 브랜드를 출력하시오.')
+# print('1 : ', end='')
+# for i in Americano:
+#     print(i, end=' ')
+# print()
+# print()
 
-print('2. 아메리카노 가격의 합을 구하시오.')
-sum = 0
-for i in Americano.values():
-    sum += i        # sum = sum + i 이 코드랑 같은 뜻
-print('2 :', sum)
-print()
+# print('2. 아메리카노 가격의 합을 구하시오.')
+# sum = 0
+# for i in Americano.values():
+#     sum += i        # sum = sum + i 이 코드랑 같은 뜻
+# print('2 :', sum)
+# print()
 
-print('3. 아메리카노 가격의 평균을 구하시오.')
-avg = sum / len(Americano)
-print('3 :', avg)
-print()
+# print('3. 아메리카노 가격의 평균을 구하시오.')
+# avg = sum / len(Americano)
+# print('3 :', avg)
+# print()
 
-print('4. items() 함수를 이용하여 오른쪽과 같이 출력하시오.')
-for x, y in Americano.items() :
-	print('brand: %-12s price: %d' % (x, y))
-
-
+# print('4. items() 함수를 이용하여 오른쪽과 같이 출력하시오.')
+# for x, y in Americano.items() :
+# 	print('brand: %-12s price: %d' % (x, y))
