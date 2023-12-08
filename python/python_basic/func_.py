@@ -5,7 +5,7 @@
 
 # def function_name(parameter):
 #       codes...
-#       return value(variavle)
+#       return value[variable]
 
 # 위 형식으로 함수를 직접 만들 수 있으며 만든 함수 실행의 경우 아래와 같음
 # funcation_name(argument)
@@ -17,10 +17,10 @@
 # 함수를 정의할 때 parameter의 수와 함수를 실행할때의 argument의 개수는 같아야 함
 
 
-# def a():
+# def a():                # parameter, return이 없는 경우
 #     print("Hello")
 
-# def b(name):
+# def b(name):            # return이 없는 경우
 #     print(name,"Hi")
 
 # def c(a):
@@ -30,6 +30,7 @@
 # b("Jeong")
 # var = c(5)
 # print(var)
+# b(var)
 
 
 
@@ -73,6 +74,7 @@
 
 # score = [51, 99, 78, 34, 75, 22, 12]
 # over_50 = check_score(score)    # check_score 함수를 통해서 50점 이상인 점수를 over_50 변수에 저장
+# print(over_50)
 # average(over_50)                # 50점 이상인 점수의 평균을 구함
 
 
