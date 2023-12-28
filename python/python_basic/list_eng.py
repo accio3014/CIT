@@ -9,7 +9,7 @@
 # print(list1)
 # print(list1[0])     # Get list1 index number 0 value.
 # print(list1[2])
-# print(list1[3])     # Get list1 index number 0 value. There is index number 3, so an error occurs
+# print(list1[3])     # Get list1 index number 3 value. There is index number 3, so an error occurs
 
 
 # ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ #
@@ -52,11 +52,12 @@
 
 # ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ #
 
-name = ["Kim", "Gu", "Koo", "Seong"]
-score = [92, 96, 98, 100]
 
-add_score = 92 + 96 + score[2] + 100
-print(add_score)
+# name = ["Kim", "Gu", "Koo", "Seong"]
+# score = [92, 96, 98, 100]
+
+# add_score = 92 + 96 + score[2] + 100
+# print(add_score)
 
 
 
