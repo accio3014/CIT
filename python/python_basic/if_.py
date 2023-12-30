@@ -116,6 +116,7 @@
 # and       : 양옆이 전부 True면 True, 하나라도 False면 Fasle 
 # or        : 양옆이 전부 False면 False, 하나라도 True면 True
 # not       : True면 Flase, Flase면 True로 결과를 뒤집음
+# 실행 순서는 not, and, or 순서로 실행 됨
 
 # a = 10
 # b = 2
@@ -137,9 +138,9 @@
 # 4와 100으로 나누어떨어지는 해는 평년으로 한다. (1900년, 2100년, 2200년)
 # 4, 100, 400으로 나누어떨어지는 해는 윤년으로 한다. (2000년, 2400년)
 
-print("윤년을 확인하는 프로그램 입니다.")
-year = int(input("확인하고 싶은 년도를 입력하세요 : "))
-if((year % 4 == 0) and ((year % 100 != 0) or (year % 400 == 0))):
-    print("윤년 입니다.")
-else:
-    print("평년 입니다.")
+# print("윤년을 확인하는 프로그램 입니다.")
+# year = int(input("확인하고 싶은 년도를 입력하세요 : "))
+# if((year % 4 == 0) and ((year % 100 != 0) or (year % 400 == 0))):
+#     print("윤년 입니다.")
+# else:
+#     print("평년 입니다.")
