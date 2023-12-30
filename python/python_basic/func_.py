@@ -13,7 +13,7 @@
 # parameter : 함수 내부에서 사용하는 변수
 # return    : 함수를 종료하며, 특정 값을 함수를 실행한 곳으로 돌려줄 수 있음
 # argument  : 함수를 실행할 때 넘겨주는 값
-# parameter, return은 필수가 아님
+# parameter, return, argument는 필수가 아님
 # 함수를 정의할 때 parameter의 수와 함수를 실행할때의 argument의 개수는 같아야 함
 
 
