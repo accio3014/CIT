@@ -52,8 +52,17 @@ int main() {
     // }
     // 위와 같이 if, else if, else가 있는 경우
 
+    // int a = -1;
 
-
+    // if(a == 0) {
+    //     printf("0 \n");
+    // } else if(a == 1) {
+    //     printf("1 \n");
+    // } else if(a == 2) {
+    //     printf("2 \n");
+    // } else {
+    //     printf("out \n");
+    // }
 
 
     return 0;
