@@ -116,8 +116,8 @@
 # print()를 사용하면 자동적으로 다음줄로 넘어감
 # 일부로 다음줄로 줄바꿈이 안되게 하려면 end=''를 사용
 
-print("Hi ")
-print("Hello")
+# print("Hi ")
+# print("Hello")
 
-print("Hi ", end='')	# 줄바꿈을 안함
-print("Hello")
+# print("Hi ", end='')	# 줄바꿈을 안함
+# print("Hello")
