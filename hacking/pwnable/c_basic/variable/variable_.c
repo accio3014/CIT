@@ -36,14 +36,14 @@ int main() {
     // scanf("%d", &variable);
     // 위 형식으로, 포맷팅 기호와 같이 사용함
 
-    int i = 0;              // 키보드 입력을 저장할 변수 초기화(Initializaion)
-    scanf("%d", &i);        // %d 이기 때문에 정수를 입력 받음
-    printf("%d\n", i);
+    // int i = 0;              // 키보드 입력을 저장할 변수 초기화(Initializaion)
+    // scanf("%d", &i);        // %d 이기 때문에 정수를 입력 받음
+    // printf("%d\n", i);
 
-    char anything[101] = "";
-    printf("최대 100자리의 문자를 입력하세요 : ");
-    scanf("%s", anything);          // 문자열의 경우 &는 사용 안함
-    printf("%s \n", anything);
+    // char anything[101] = "";
+    // printf("최대 100자리의 문자를 입력하세요 : ");
+    // scanf("%s", anything);          // 문자열의 경우 &는 사용 안함
+    // printf("%s \n", anything);
 
 
     return 0;
