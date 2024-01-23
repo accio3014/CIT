@@ -56,6 +56,7 @@
 # print('hi')
 # print()
 # print(5)
+# print(name, age, height)
 
 
 # +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ #
@@ -135,7 +136,8 @@
 # input()은 무조건 str 자료형으로 값을 저장함
 
 # var1 = 2            
-# var2 = input()      
+# var2 = input("Insert anything : ")  
+# print(var2) 
 # print(type(var2))   
 
 # var2 = int(var2)    
