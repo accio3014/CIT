@@ -20,7 +20,7 @@
 
 # 자료형(Data type)
 # str   -> String                   문자    => 따음표로 이루어져 있음(따음표가 있으면 무조건 문자) " "  ' '
-# float -> Floating point number    실수    => 따음표가 없고 소수점이 있으면 실수
+# float -> Float                    실수    => 따음표가 없고 소수점이 있으면 실수
 # int   -> Integer                  정수    => 따음표가 없고 소수점도 없으면 정수
 # 일상적으로 사용하는 말들(영어, 중국어, 한국어 등)이 따음표가 없다 => 오류
 
@@ -73,7 +73,8 @@
 # int0 = 1                # int0라는 변수에 int 자료형인 1 저장
 # float0 = 3.14
 # str0 = 'test'
-# print(type(int0))       # type 함수를 사용하여 int0의 자료형 출력
+# type(int0)              # 동작을 하지만 자료형을 눈으로 볼 수 없음
+# print(type(int0))       # type()을 사용하여 int0의 자료형 출력
 # print(type(float0))
 # print(type(str0))
 
@@ -81,16 +82,16 @@
 # +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ #
 
 
-# casting (형 변환)
-# int(변수 or 값)     => 변수 or 값을 int 자료형으로 변환
+# 형 변환(casting)
 # str(변수 or 값)     => 변수 or 값을 str 자료형으로 변환
 # float(변수 or 값)   => 변수 or 값을 float 자료형으로 변환
+# int(변수 or 값)     => 변수 or 값을 int 자료형으로 변환
 # 단순히 연산할때만 사용하면 원본의 값은 변하지 않음
 # 원본의 자료형을 변환 시키기 위해서는 변수에 값을 다시 넣어야 함 [ ex. a = int(a) ]
 
 # var1 = 2
 # var2 = '31'
-# result = var1 + int(var2)   # result 변수에 var1 변수 + int 자료형으로 변환 한 var2변수 저장
+# result = var1 + int(var2)   # result 변수에 var1 변수 + int 자료형으로 변환한 var2변수 저장
 # print(result)
 # print(type(var2))           # 변수 var2 자료형을 출력, result 변수에는 int 자료형으로 계산이 되었지만
 #                             # 실제 변수의 자료형은 변환 안됨
