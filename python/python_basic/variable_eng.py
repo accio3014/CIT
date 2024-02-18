@@ -108,14 +108,31 @@
 # age = int(age)
 # year = 2024 - age
 
-# print("You were born in", year, "Enter your height.")
-# height = input()
-# height = int(height)
+# print("You were born in", year, "! Enter your height.")
+# height = int(input())
 
 # two_m = 200 - height
-# print("There are", two_m, "cm left unitl 2m.")
+# print("There are", two_m, "cm left until 2m.")
 
 
+# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ #
 
 
+# +
+# -
+# *
+# /     : divide(only float)
+# //    : quotient
+# %     : remainder
+# **    : square
+
+# a = 8
+# b = 2
+# print(a + b)
+# print(a - b)
+# print(a * b)
+# print(a / b)
+# print(a // b)
+# print(a % b)
+# print(a ** b)
 
