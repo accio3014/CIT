@@ -59,7 +59,37 @@
 # if(age >= 12) :
 #     print("Good, Have fun watching.")
 # else :
-#     print("Sorry, Only over 12years watch the movie.")
+#     print("Sorry, Only over 12 years watch the movie.")
 
 
 # ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ #
+
+
+# print("Enter number.")
+# num = int(input())
+
+# if(num % 2 == 0) :
+#     print("Even.")
+# else :
+#     print("Odd")
+
+
+# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ #
+
+
+# and   : True if both sides are True, False if even one side is False
+# or    : False if both sides are False, True if at least one side is True
+# not   : If True, the result is reversed to Flase. If it is Flase, the result is reversed to True.
+# The execution order is executed in the order of not, and, or.
+
+
+# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ #
+
+
+# An year is said to be leap year if it divisible by 4 and not divisible by 100, with an exception that it is divisible by 400.
+# year = int(input('Enter year : '))
+ 
+# if((year%4 == 0) and (year%100 != 0)) or (year%400 == 0) :
+#     print(year, "is a leap year.")
+# else :
+#     print(year, "is not a leap year.")
