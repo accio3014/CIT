@@ -58,7 +58,8 @@
 # print('hi')
 # print()
 # print(5)
-# print(name, age, height)
+# print(5*10)
+# print(name, age, height, "hello")
 
 
 # +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ #
