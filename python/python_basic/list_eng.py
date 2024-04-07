@@ -1,4 +1,5 @@
-# list
+# list_eng.py
+
 # variable = ["value", value]       => The data type of the value does not matter
 # Use in the above form
 # List is a collection of multiple data types in order in one variable.
@@ -49,6 +50,10 @@
 # for i in list1:         # Can insert a list variable instead of range() in for loop.
 #     print(i)            # Get the elements of a list one by one
 
+# list2 = ['a', 'hello', 'cit', 'coding', 'A']
+# for j in list2 :
+#     print(j)
+
 
 # ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ #
 
@@ -65,6 +70,7 @@
 
 
 # List function
+
 # listName.insert(Index number, Value to add)
 # insert() add one value to index number. If there is a value that index, the values are pushed back.
 # If index number is out of range, the value is insert to the end.
@@ -102,3 +108,8 @@
 
 # listName.sort()
 # Sort the contents of the list in ascending order.
+
+
+# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ #
+
+
