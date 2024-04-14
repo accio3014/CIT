@@ -201,7 +201,7 @@
 
 # print("Q2. 첫 번째 'Thu'를 지우고 그 자리에 'Tue'를 삽입하시오.")
 # t_idx = week.index('Thu')
-# week.remove('Thu')
+# del(week[t_idx])
 # week.insert(t_idx, 'Tue')
 # print('Q2 :', week)
 # print()
