@@ -113,3 +113,94 @@
 # ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ #
 
 
+# in
+# in is used to check if a value exists in a list, returning True or False.
+# This result can be applied within conditional statements like 'if'.
+# It's used in the following format:
+# value_to_find in list_name
+
+# numbers = [1,2,3,4,5]
+# print(2 in numbers)
+# print(8 in numbers)
+
+# if(3 in numbers) :
+#     print("3 inside the list")
+
+
+# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ #
+
+
+# Nested Lists (2D Lists)
+# When there's a list inside another list,
+# use double square brackets [][] to reference values.
+
+# list1 = [1, 'cit', True]
+# list2 = [3, 2, 'py']
+# list3 = [list1, list2]
+
+# print(list1)
+# print(list2)
+# print(list3)
+# print(list3[0][1])
+# print(list3[1][1])
+# print(list3[0])
+
+
+# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ #
+
+
+# Triple Lists (3D Lists)
+# When there's a list inside another list inside another list,
+# use triple square brackets to reference values.
+
+
+# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ #
+
+
+# Cafe = ['Starlucks', 'Mollys', 'Emiya', 'FomAFams']
+# Main = ['Americano', 'Cappuccino', 'Cafelatte', 'Americano']
+# Price = [3700, 4600, 3200, 4100]
+# Location = ['A Street', 'B Street', 'C Street', 'D Street']
+# CafeTable = [Cafe, Main, Price, Location]
+# print(CafeTable)
+# print()
+
+# Viewing the content of nested lists line by line
+# for i in CafeTable:
+#     print(i)
+# print()
+
+# Printing only the price information
+# print(CafeTable[2])
+# print()
+
+# Printing only the information for Mollys
+# for i in range(len(CafeTable)):
+#     print(CafeTable[i][1], end=' ')
+# print()
+
+
+# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ #
+
+
+# A = [1, 4, 5]
+# B = [2, 3, 6]
+# C = []
+
+# Case 1 : using value
+# for i in A :
+#    for j in B :
+#       C.append(i*j)
+
+# for z in C :
+#    print(z)
+# print()
+
+# C = []
+# Case 2 : using index
+# for i in range(len(A) ):
+#    for j in range(len(B)) :
+#         C.append(A[i] * B[j])
+
+# for z in C :
+#    print(z)
