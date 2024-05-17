@@ -86,7 +86,7 @@
 
 # input
 # input(string or varialbe or value)
-# After outputting a string or variable or value, keyboard input is received unitl the Enter key pressed.
+# After print a string or variable or value, keyboard input is received unitl the Enter key pressed.
 # variable = input(string or varialbe or value)
 # The above format is mainly used, if only input() is used, the input value cannot be saved.
 # input() always stroes the value as str data type.
@@ -135,4 +135,3 @@
 # print(a // b)
 # print(a % b)
 # print(a ** b)
-
