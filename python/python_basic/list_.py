@@ -229,20 +229,20 @@
 # 10
 # 0
 # 평균은 15 입니다.
-# number = []
-# print('점수를 입력하세요. (끝낼 시 0을 입력)')
+
+# numbers = []
+# print("점수를 입력하세요. (끝낼 시 0을 입력)")
 # while(True):
-    
 #     num = int(input())
 
 #     if(num == 0):
 #         break
 #     else:
-#         number.append(num)
+#         numbers.append(num)
 
-# avg = int(sum(number) / len(number))
-# print('평균은 %d 입니다.' % avg)
-# print(number)
+# avg = int(sum(numbers) / len(numbers))
+# print("평균은 %d 입니다." % avg)
+# print(numbers)
 
 
 # ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ #
@@ -253,7 +253,7 @@
 # 찾을값 in 리스트명
 # 위 형식으로 사용함
 
-# numbers = [1,2,3,4,5]
+# numbers = [1, 2, 3, 4, 5]
 # print(2 in numbers)
 # print(8 in numbers)
 
