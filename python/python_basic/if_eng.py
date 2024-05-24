@@ -77,19 +77,23 @@
 # ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ #
 
 
+# not   : If True, the result is reversed to False. If it is False, the result is reversed to True.
 # and   : True if both sides are True, False if even one side is False
 # or    : False if both sides are False, True if at least one side is True
-# not   : If True, the result is reversed to Flase. If it is Flase, the result is reversed to True.
 # The execution order is executed in the order of not, and, or.
+# print(not(1 == 1))
+# print((1 != 5) and (10 <= 15))
+# print((6 != 6) or (5 == 3))
 
 
 # ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ #
 
 
 # An year is said to be leap year if it divisible by 4 and not divisible by 100, with an exception that it is divisible by 400.
+
 # year = int(input('Enter year : '))
  
-# if((year%4 == 0) and (year%100 != 0)) or (year%400 == 0) :
+# if(((year%4 == 0) and (year%100 != 0)) or (year%400 == 0)) :
 #     print(year, "is a leap year.")
 # else :
 #     print(year, "is not a leap year.")
