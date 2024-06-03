@@ -58,14 +58,14 @@
 
 # The return statement is often used to share values between functions
 
-# def check_score(score):     # Returns a list of scores 50 and above
+# def check_score(score) :        # Returns a list of scores 50 and above
 #     over = []
-#     for i in score:
-#         if i >= 50:
+#     for i in score :
+#         if(i >= 50) :
 #             over.append(i)
 #     return over
 
-# def average(score):         # Calculates the average
+# def average(score)  :           # Calculates the average
 #     print(sum(score) / len(score))
 
 # score = [51, 99, 78, 34, 75, 22, 12]
@@ -88,6 +88,7 @@
 #     a = 5       # local variable
 #     b = 20      # local variable
 
+# print(a)
 # test()
 # print(a)        # The value of 'a' remains unchanged after calling test()
 # print(b)        # Variable 'b' is not accessible outside test() and will cause an error
@@ -141,13 +142,12 @@
 
 
 # Fibonacci sequence
-# https://pythontutor.com/render.html#mode=display
 # def fibonacci(a, b):
 #     c = a + b
-#     if a < 100:
+#     if(a < 100) :
 #         print(a, end='  ')
 #         return fibonacci(b, c)      # Return None repeatedly until all calls are resolved
-#     else:
+#     else :
 #         return                      # Returns None since no value or variable is specified
 
 # fibonacci(1, 1)
