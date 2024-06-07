@@ -183,9 +183,7 @@
 #     d = a * b
 #     if(a <= 4):
 #         print('@'*a,end='')
-#         print(' ', end='')
 #         print('^'*b,end='')
-#         print(' ', end='')
 #         return at(c,d)
 #     else:
 #         return

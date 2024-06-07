@@ -66,7 +66,7 @@
 
 # infinite loop, break, continue
 
-# infinite loop is only possible while loop.
+# infinite loop in while loop.
 # while(True) :
 #   code...
 # Use the above format.
@@ -79,7 +79,7 @@
 #     print(i)
 #     if(i == 10) :
 #         break
-#     i += 1
+#     i += 1          # i = i + 1
 
 
 # continue
