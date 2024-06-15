@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/seokcheon/Library/CloudStorage/OneDrive-Personal/CIT/class_material/CIT/C#-Basic/ConsoleApp1/ConsoleApp1.csproj": {}
+    "/workspaces/CIT/C#-Basic/ConsoleApp1/ConsoleApp1.csproj": {}
   },
   "projects": {
-    "/Users/seokcheon/Library/CloudStorage/OneDrive-Personal/CIT/class_material/CIT/C#-Basic/ConsoleApp1/ConsoleApp1.csproj": {
+    "/workspaces/CIT/C#-Basic/ConsoleApp1/ConsoleApp1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/seokcheon/Library/CloudStorage/OneDrive-Personal/CIT/class_material/CIT/C#-Basic/ConsoleApp1/ConsoleApp1.csproj",
+        "projectUniqueName": "/workspaces/CIT/C#-Basic/ConsoleApp1/ConsoleApp1.csproj",
         "projectName": "ConsoleApp1",
-        "projectPath": "/Users/seokcheon/Library/CloudStorage/OneDrive-Personal/CIT/class_material/CIT/C#-Basic/ConsoleApp1/ConsoleApp1.csproj",
-        "packagesPath": "/Users/seokcheon/.nuget/packages/",
-        "outputPath": "/Users/seokcheon/Library/CloudStorage/OneDrive-Personal/CIT/class_material/CIT/C#-Basic/ConsoleApp1/obj/",
+        "projectPath": "/workspaces/CIT/C#-Basic/ConsoleApp1/ConsoleApp1.csproj",
+        "packagesPath": "/home/codespace/.nuget/packages/",
+        "outputPath": "/workspaces/CIT/C#-Basic/ConsoleApp1/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/seokcheon/.nuget/NuGet/NuGet.Config"
+          "/home/codespace/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -58,7 +58,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.301/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.203/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
