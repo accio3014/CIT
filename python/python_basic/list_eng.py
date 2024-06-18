@@ -119,12 +119,12 @@
 # It's used in the following format:
 # value_to_find in list_name
 
-numbers = [1,2,3,4,5]
-print(2 in numbers)
-print(8 in numbers)
+# numbers = [1,2,3,4,5]
+# print(2 in numbers)
+# print(8 in numbers)
 
-if(3 in numbers) :
-    print("3 inside the list")
+# if(3 in numbers) :
+#     print("3 inside the list")
 
 
 # ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ #
