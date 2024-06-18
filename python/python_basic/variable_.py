@@ -96,7 +96,7 @@
 # result = var1 + int(var2)   # result 변수에 var1 변수 + int 자료형으로 변환한 var2변수 저장
 # print(result)
 # print(type(var2))           # 변수 var2 자료형을 출력, result 변수에는 int 자료형으로 계산이 되었지만
-#                             # 실제 변수의 자료형은 변환 안됨0314
+#                             # 실제 변수의 자료형은 변환 안됨
 # var2 = int(var2)            # var2 변수에 int 자료형으로 변환한 var2 변수 저장 
 # print(type(var2))           # 변수 var2 자료형을 출력
 
@@ -111,15 +111,15 @@
 # 위 형식을 주로 사용, input()만 사용했을 경우 입력 값을 저장하지 못함
 # input()은 무조건 str 자료형으로 값을 저장함
 
-# var1 = 2            
-# var2 = input("Insert anything : ")  
-# print(var2) 
-# print(type(var2))   
+# var1 = 2
+# var2 = input("Insert anything : ")
+# print(var2)
+# print(type(var2))
 
-# var2 = int(var2)    
-# print(type(var2))   
+# var2 = int(var2)
+# print(type(var2))
 
-# sum = var1 + var2   
+# sum = var1 + var2
 # print(sum)
 
 
