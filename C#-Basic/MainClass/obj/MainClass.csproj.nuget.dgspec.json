@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/workspaces/CIT/C#-Basic/MainClass/MainClass.csproj": {}
+    "/Users/seokcheon/Library/CloudStorage/OneDrive-Personal/CIT/class_material/CIT/C#-Basic/MainClass/MainClass.csproj": {}
   },
   "projects": {
-    "/workspaces/CIT/C#-Basic/MainClass/MainClass.csproj": {
+    "/Users/seokcheon/Library/CloudStorage/OneDrive-Personal/CIT/class_material/CIT/C#-Basic/MainClass/MainClass.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/workspaces/CIT/C#-Basic/MainClass/MainClass.csproj",
+        "projectUniqueName": "/Users/seokcheon/Library/CloudStorage/OneDrive-Personal/CIT/class_material/CIT/C#-Basic/MainClass/MainClass.csproj",
         "projectName": "MainClass",
-        "projectPath": "/workspaces/CIT/C#-Basic/MainClass/MainClass.csproj",
-        "packagesPath": "/home/codespace/.nuget/packages/",
-        "outputPath": "/workspaces/CIT/C#-Basic/MainClass/obj/",
+        "projectPath": "/Users/seokcheon/Library/CloudStorage/OneDrive-Personal/CIT/class_material/CIT/C#-Basic/MainClass/MainClass.csproj",
+        "packagesPath": "/Users/seokcheon/.nuget/packages/",
+        "outputPath": "/Users/seokcheon/Library/CloudStorage/OneDrive-Personal/CIT/class_material/CIT/C#-Basic/MainClass/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/codespace/.nuget/NuGet/NuGet.Config"
+          "/Users/seokcheon/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -58,7 +58,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.203/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.301/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
