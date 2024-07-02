@@ -45,24 +45,33 @@
 
 # for i in range(1, 9, 2):
 #     print(i)
+# print()
 
 # list1 = [1, 3, 5, 7]
 # for i in list1:         # Can insert a list variable instead of range() in for loop.
 #     print(i)            # Get the elements of a list one by one
+# print()
 
 # list2 = ['a', 'hello', 'cit', 'coding', 'A']
 # for j in list2 :
 #     print(j)
+# print()
 
 
 # ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ #
 
 
-# name = ["Kim", "Gu", "Koo", "Seong"]
 # score = [92, 96, 98, 100]
+# avg = 0
+# for i in score :
+#     avg = avg + i
+# print(avg / 4)
 
-# add_score = 92 + 96 + score[2] + 100
-# print(add_score)
+
+# avg = 0
+# for i in range(4) :
+#     avg = avg + score[i]
+# print(avg / 4)
 
 
 
@@ -108,6 +117,18 @@
 
 # listName.sort()
 # Sort the contents of the list in ascending order.
+
+# Functions like insert() that are used with a list variable followed by a dot(.) can only be used with lists.
+# Functions like del(), len(), and sum() can be used with other data types as well, not just lists.
+
+
+# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ #
+
+
+# score = [92, 96, 98, 100]
+
+# avg = sum(score) / len(score)
+# print(avg)
 
 
 # ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ #
