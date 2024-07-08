@@ -151,7 +151,7 @@
 # ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ #
 
 
-# Nested Lists (2D Lists)
+# Double Lists (2D Lists)
 # When there's a list inside another list,
 # use double square brackets [][] to reference values.
 

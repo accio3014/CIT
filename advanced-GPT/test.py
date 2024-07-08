@@ -2,7 +2,9 @@ import os
 from googleapiclient.discovery import build
 from google_auth_oauthlib.flow import InstalledAppFlow
 from google.auth.transport.requests import Request
-import openai
+from openai import OpenAI
+
+client = OpenAI(api_key=api_key)
 from google_auth_oauthlib.flow import InstalledAppFlow
 
 # 유튜브 API 사용 권한 요청 스코프
@@ -53,13 +55,10 @@ def download_captions(caption_id, api_key):
     return response
 
 def summarize_text(api_key, text, model="text-davinci-003", max_tokens=150):
-    openai.api_key = api_key
     prompt = f"Summarize this text:\n\n{text}"
-    response = openai.Completion.create(
-        engine=model,
-        prompt=prompt,
-        max_tokens=max_tokens
-    )
+    response = client.completions.create(engine=model,
+    prompt=prompt,
+    max_tokens=max_tokens)
     return response.choices[0].text.strip()
 
 def main(video_url, youtube_api_key, openai_api_key):
