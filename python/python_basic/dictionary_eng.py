@@ -2,6 +2,7 @@
 
 # Dictionary is a collection of key:value pairs.
 # Unlike lists, dictionaries do not have the concept of indices. Instead, values are referenced using keys.
+
 # dicti = {'brand':'CIT', 'classnumber':4}    # Unlike lists, dictionaries are enclosed in {} and keys and values are separated by :.
 # print(dicti)
 

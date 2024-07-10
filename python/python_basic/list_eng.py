@@ -165,6 +165,11 @@
 # print(list3[0][1])
 # print(list3[1][1])
 # print(list3[0])
+# print()
+
+# for i in range(len(list3)) :
+#     for j in range(len(list3[0])) : 
+#         print(list3[i][j])
 
 
 # ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ #
@@ -172,7 +177,7 @@
 
 # Triple Lists (3D Lists)
 # When there's a list inside another list inside another list,
-# use triple square brackets to reference values.
+# use triple square brackets([][][]) to reference values.
 
 
 # ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ #
