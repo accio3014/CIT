@@ -98,11 +98,11 @@
 # ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ #
 
 
-# input('text' or variable)
+# input('text' or value or variable)
 # Displays 'text' or the value of the variable, then waits for keyboard input until Enter is pressed
 # 'text' or variable can be left out
 # variable = input('text' or variable)
-# Usually used in this format, without it the input value is not saved
+# Usually used in this format, without variable it the input value is not saved
 # input() always saves the value as a str data type
 
 # var1 = 2
