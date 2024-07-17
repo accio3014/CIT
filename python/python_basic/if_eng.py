@@ -19,7 +19,7 @@
 # if(condition) :
 #   Run if the above condition is True.
 # elif(condition) :
-#   Run if the above condition is True.
+#   Run elif the above condition is True.
 # else :
 #   Run if all condition are False.
 
@@ -84,6 +84,34 @@
 # print(not(1 == 1))
 # print((1 != 5) and (10 <= 15))
 # print((6 != 6) or (5 == 3))
+
+
+# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ #
+
+
+# Nested if 
+# if can be nested
+
+# age = int(input("Enter your age: "))
+# is_member = input("Are you a member? (yes or no): ")
+
+# if(age >= 18) :
+#     if(is_member == "yes") :
+#         print("Welcome, adult member!")
+#     else :
+#         print("Adult non-member, please sign up.")
+# else :
+#     if(is_member == "yes") :
+#         print("Welcome, young member!")
+#     else :
+#         print("Young non-member, please sign up.")
+
+
+
+# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ #
+
+
+
 
 
 # ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ #

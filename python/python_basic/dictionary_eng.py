@@ -81,7 +81,7 @@
 # print('='*20)
 
 # for x in Americano :
-# 	print(Americano[x])     # using index
+# 	print(Americano[x])     # using key
 # print('='*20)
 
 # Printing both keys and values

@@ -25,20 +25,20 @@
 # split(string)
 # Divides the string into substrings and returns a list.
 # If no character to split, it generates a list with the whole string.
-# print("split('a') :",string0.split('a'))
+# print("split('a') :", string0.split('a'))
 # print()
 
 # count(string)
 # Returns the number of occurrences of a specific substring.
 # The length of the substring to count does not matter.
 # If the substring is not found, it returns 0.
-# print("count('a') :",string0.count('a'))
+# print("count('a') :", string0.count('a'))
 # print()
 
 # upper()   => Converts all characters to uppercase.
 # lower()   => Converts all characters to lowercase.
-# print('upper() :',string0.upper())
-# print('lower() :',string0.lower())
+# print('upper() :', string0.upper())
+# print('lower() :', string0.lower())
 # print()
 
 # replace(string1, string2)
@@ -82,20 +82,20 @@
 # ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ #
 
 
-# name = ["bell", "sona", "rick", "tony", "jade"]
-# score = [52, 96, 32, 73, 85]
-# print(name)
-# print(score)
-# print()
+name = ["bell", "sona", "rick", "tony", "jade"]
+score = [52, 96, 32, 73, 85]
+print(name)
+print(score)
+print()
 
-# print('Q1. Replace "sona" with "kona" in name using replace() function.')
-# if("sona" in name):
-#     idx = name.index("sona")
-#     name[idx] = name[idx].replace("sona", "kona")
-# else:
-#     print("sona not found")
-# print(name)
-# print()
+print('Q1. Replace "sona" with "kona" in name using replace() function.')
+if("sona" in name):
+    idx = name.index("sona")
+    name[idx] = name[idx].replace("sona", "kona")
+else:
+    print("sona not found")
+print(name)
+print()
 
 # print("Q2. Replace all 'o' in name with \"ecoto\" using replace() function.")
 # for i in name:

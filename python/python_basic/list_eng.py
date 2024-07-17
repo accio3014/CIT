@@ -230,3 +230,15 @@
 
 # for z in C :
 #    print(z)
+
+
+# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ #
+
+
+# Combining Lists
+# You can combine lists using the + symbol 
+# (but for nested lists, they must have the same nesting level).
+a = [1, 2, 3]
+b = [2, 3, 4]
+c = a + b
+print(c)
