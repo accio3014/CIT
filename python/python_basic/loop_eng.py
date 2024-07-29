@@ -39,7 +39,6 @@
 
 
 # Infinite loop
-# In Python
 # while(True) :
 #       code
 # This creates an infinite loop
@@ -71,6 +70,7 @@
 # ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ #
 
 
+# Sample of using infinite loop, continue, break
 # while(True) :
 #     print("Please choose a menu option:")
 #     print("1. Print hello")
@@ -86,7 +86,9 @@
 #         print("Exiting the menu program.")
 #         break
 #     else :
-#         print("Invalid input. Please enter a number between 1 and 3.\n\n")
+#         print("Invalid input. Please enter a number between 1 and 3.")
+#         print()
+#         print()
 #         continue
 
 #     print()
@@ -98,7 +100,8 @@
 
 # Nested loops
 # A loop inside another loop
-# Two nested loops is called double nested, three nested loops is called triple nested. More than triple nested loops are rarely used.
+# Two nested loops is called double nested, three nested loops is called triple nested. 
+# More than triple nested loops are rarely used.
 
 # for x in range(1, 10, 1) :          # repeats 9 times
 #     for y in range(1, 10, 1) :      # repeats 81 times in total
@@ -116,6 +119,14 @@
 #         print(x, "*", y, "=", x * y)
 #         y += 1
 #     x += 1
+
+
+# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ #
+
+
+# for x in range(1, 10, 1) :          
+#     for y in range(1, x+1, 1) :      # Can use an external variable in range
+#         print(x, "*", y, "=", x * y)
 
 
 # ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ #

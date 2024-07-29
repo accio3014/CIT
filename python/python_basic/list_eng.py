@@ -100,7 +100,7 @@
 # listName.index(Value to find index)
 # In the case of index(), the index number where the value is located is returned.
 # If the value to find is not in the list, an error occurs.
-# If there are multiple values in the list, the number with the lowest index is returend.
+# If there are multiple values in the list, the number with the lowest index is returned.
 
 # len(listName)
 # In the case of len(), the length of the listName is returned.
@@ -238,7 +238,7 @@
 # Combining Lists
 # You can combine lists using the + symbol 
 # (but for nested lists, they must have the same nesting level).
-a = [1, 2, 3]
-b = [2, 3, 4]
-c = a + b
-print(c)
+# a = [1, 2, 3]
+# b = [2, 3, 4]
+# c = a + b
+# print(c)
