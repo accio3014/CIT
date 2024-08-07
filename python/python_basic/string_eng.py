@@ -82,20 +82,20 @@
 # ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ #
 
 
-name = ["bell", "sona", "rick", "tony", "jade"]
-score = [52, 96, 32, 73, 85]
-print(name)
-print(score)
-print()
+# name = ["bell", "sona", "rick", "tony", "jade"]
+# score = [52, 96, 32, 73, 85]
+# print(name)
+# print(score)
+# print()
 
-print('Q1. Replace "sona" with "kona" in name using replace() function.')
-if("sona" in name):
-    idx = name.index("sona")
-    name[idx] = name[idx].replace("sona", "kona")
-else:
-    print("sona not found")
-print(name)
-print()
+# print('Q1. Replace "sona" with "kona" in name using replace() function.')
+# if("sona" in name):
+#     idx = name.index("sona")
+#     name[idx] = name[idx].replace("sona", "kona")
+# else:
+#     print("sona not found")
+# print(name)
+# print()
 
 # print("Q2. Replace all 'o' in name with \"ecoto\" using replace() function.")
 # for i in name:
