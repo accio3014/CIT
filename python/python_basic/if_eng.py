@@ -117,7 +117,8 @@
 # ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ #
 
 
-# An year is said to be leap year if it divisible by 4 and not divisible by 100, with an exception that it is divisible by 400.
+# An year is said to be leap year if it divisible by 4 and not divisible by 100, 
+# with an exception that it is divisible by 400.
 
 # year = int(input('Enter year : '))
  
