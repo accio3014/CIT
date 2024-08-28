@@ -41,22 +41,22 @@
 
 # print('Q1. list1의 1번째 원소를 "park"로 고치시오. ')
 # list1[1] = 'park'
-# print('Q1 :', list1)
+# print(list1)
 # print()
 
 # print('Q2. 변수 이름을 "arr"”로 하고 다음 리스트를 대입(저장)하시오.[ 4, 8, 12, 16, 20, 24, 28, 32 ]')
 # arr = [4, 8, 12, 16, 20, 24, 28, 32]
-# print('Q2 :', arr)
+# print(arr)
 # print()
 
 # print('Q3. arr의 4번째 원소를 "cit"로 하시오. 단 맨 왼쪽의 원소가 0번째 원소다.')
 # arr[4] = 'cit'
-# print('Q3 :', arr)
+# print(arr)
 # print()
 
 # print('Q4. print(list1)와 print(arr)을 실행하시오.')
-# print('Q4 :', list1)
-# print('Q4 :', arr)
+# print(list1)
+# print(arr)
 
 
 # ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ #
