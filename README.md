@@ -18,5 +18,5 @@
 | Mobile Development            | 🔰 ~ 🚀   | Android(Java or Kotlin), iOS(Swift), Cross-Platform(Flutter) |
 | Git(Version Control System)   | 🔰 ~ 🌟   | Basics, Branching, Merging, Pull Requests, Collaboration |
 | AI Tools(GPT & More)          | 🔰 ~ 🚀   | GPT-4, ChatGPT API, AI Text Generation, AI Tools Integration |
-| Security                      | 🔰 ~ 🌟   | Security Fundamentals, Pwnable, Reversing, Cryptography, Web Exploits, Forensic , OSINT, CTF Competitions
+| Security                      | 🔰 ~ 🌟   | Security Fundamentals, CTF Competitions
 ---
