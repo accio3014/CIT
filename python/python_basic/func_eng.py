@@ -131,7 +131,7 @@
 # ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ #
 
 
-# Recursive functions
+# Recursion functions
 # A function that calls itself within its definition
 # def function() :
 #     print('Hello')
