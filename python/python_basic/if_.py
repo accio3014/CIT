@@ -1,6 +1,5 @@
 # if_.py
 
-
 # 비교 연산자
 # 비교 연산의 결과는 무조건 True 또는 False로 나옴
 # ==    : 같으면 True, 다르면 False
@@ -68,14 +67,12 @@
 
 # if(100 >= score >= 90):     # 조건문이 True여서 실행될 경우 아래의 조건은 더 보지 않고 if 종료, 즉 조건문은 무조건 한개만 동작함
 #     print('A')              
-# elif(89 >= score >= 70):
+# if(89 >= score >= 70):
 #     print('B')
-# elif(69 >= score >= 60):
+# if(69 >= score >= 60):
 #     print('C')
-# elif(59 >= score >= 0):
+# if(59 >= score >= 0):
 #     print('D')
-# else:
-#     print("Please enter a score between 0 and 100.")
 
 # print("End.")
 
