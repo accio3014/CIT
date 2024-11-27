@@ -1,6 +1,5 @@
 # if_.py
 
-
 # 비교 연산자
 # 비교 연산의 결과는 무조건 True 또는 False로 나옴
 # ==    : 같으면 True, 다르면 False
@@ -74,8 +73,6 @@
 #     print('C')
 # elif(59 >= score >= 0):
 #     print('D')
-# else:
-#     print("Please enter a score between 0 and 100.")
 
 # print("End.")
 
