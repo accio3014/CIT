@@ -125,14 +125,6 @@
 # +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ #
 
 
-# input('strings' or variable)
-# After outputting a string or variable, receive input from the keyboard until entering Enter Key.
-# Doesn't matter if you don't insert strings or variables
-# variable = input('strings' or variable)
-# The above format is commonly used. The reason is that if input('string' or variable) is used only like this
-# since the value cannot be stored, use the above format to store the value in a variable.
-# input() unconditionally stores the value as a str
-
 # input('문자' or 변수)
 # '문자' 또는 변수를 출력한 후 엔터키를 누르기 전까지 키보드 입력을 받음
 # '문자' 또는 변수는 생략 가능
@@ -140,15 +132,15 @@
 # 위 형식을 주로 사용, input()만 사용했을 경우 입력 값을 저장하지 못함
 # input()은 무조건 str 자료형으로 값을 저장함
 
-var1 = 2            
-var2 = input()      
-print(type(var2))   
+# var1 = 2
+# var2 = input()
+# print(type(var2))
 
-var2 = int(var2)    
-print(type(var2))   
+# var2 = int(var2)
+# print(type(var2))
 
-sum = var1 + var2   
-print(sum)          
+# sum = var1 + var2
+# print(sum)
 
 
 # 안녕하세요. 이름을 입력해주세요.
@@ -172,8 +164,8 @@ print(sum)
 # *     곱하기
 # /     나누기(소수로 나옴)
 # //    몫(정수로 나옴)
-# %     나머지
-# **    제곱
+# # %     나머지
+# # **    제곱
 
 # a = 10
 # b = 3
