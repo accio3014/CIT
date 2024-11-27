@@ -67,11 +67,11 @@
 
 # if(100 >= score >= 90):     # 조건문이 True여서 실행될 경우 아래의 조건은 더 보지 않고 if 종료, 즉 조건문은 무조건 한개만 동작함
 #     print('A')              
-# if(89 >= score >= 70):
+# elif(89 >= score >= 70):
 #     print('B')
-# if(69 >= score >= 60):
+# elif(69 >= score >= 60):
 #     print('C')
-# if(59 >= score >= 0):
+# elif(59 >= score >= 0):
 #     print('D')
 
 # print("End.")
