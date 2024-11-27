@@ -132,7 +132,6 @@
 # 위 형식을 주로 사용, input()만 사용했을 경우 입력 값을 저장하지 못함
 # input()은 무조건 str 자료형으로 값을 저장함
 
-<<<<<<< HEAD
 # var1 = 2
 # var2 = input()
 # print(type(var2))
@@ -142,7 +141,7 @@
 
 # sum = var1 + var2
 # print(sum)
-=======
+
 # var1 = 2            
 # var2 = input()      
 # print(type(var2))   
@@ -152,7 +151,6 @@
 
 # sum = var1 + var2   
 # print(sum)          
->>>>>>> fb41d934d7b8b9aac268ef7afd02b4a0046f475d
 
 
 # 안녕하세요. 이름을 입력해주세요.
