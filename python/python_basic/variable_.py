@@ -129,7 +129,7 @@
 # print("안녕하세요. 이름을 입력해주세요.")
 # name = input()
 
-# print("환영합니다.", name,"님. 나이를 입력해주세요.")
+# print("환영합니다.", name, "님. 나이를 입력해주세요.")
 # age = input()
 # age = int(age)
 # year = 2024 - age
