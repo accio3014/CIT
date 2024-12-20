@@ -135,8 +135,7 @@
 # year = 2024 - age
 
 # print(year, "년에 태어나셨네요! 키를 입력해주세요.")
-# height = input()
-# height = int(height)
+# height = int(input())           # 입력을 받자마자 int로 변환
 # left_hight = 200 - height
 # print("2m까지", left_hight, "cm 남았네요.")
 
@@ -166,38 +165,6 @@
 # +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ #
 
 
-# 두 개의 숫자를 입력해주세요
-# 10
-# 2
-# 어떤 계산을 실행할까요?
-# (1 : 곱하기, 2 : 나누기, 3 : 더하기, 4 : 빼기) 
-# 1
-# 곱하기를 선택하셨습니다. 10 * 2 = 20 입니다.
-# print('두 개의 숫자를 입력해주세요')
-# num1 = int(input())
-# num2 = int(input())
-# print('어떤 계산을 실행할까요?')
-# print('(1 : 곱하기, 2 : 나누기, 3 : 더하기, 4 : 빼기)')
-# choice = int(input())
-
-# if(choice == 1):
-#     result = num1 * num2
-#     print('곱하기를 선택하셨습니다. %d * %d = %d입니다.' % (num1, num2, result))
-# elif(choice == 2):
-#     result = num1 // num2
-#     print('나누기를 선택하셨습니다. %d / %d = %d입니다.' % (num1, num2, result))
-# elif(choice == 3):
-#     result = num1 + num2
-#     print('더하기를 선택하셨습니다. %d + %d = %d입니다.' % (num1, num2, result))
-# elif(choice == 4):
-#     result = num1 - num2
-#     print('빼기를 선택하셨습니다. %d - %d = %d입니다.' % (num1, num2, result))
-
-
-
-# +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ #
-
-
 # print('두 개의 숫자를 입력해주세요')
 # num1 = int(input())
 # num2 = int(input())
@@ -209,14 +176,3 @@
 # print(num1 * num2)
 # print(num1 // num2)
 # print(num1 % num2)
-
-
-
-# print('본인의 키는?')
-# height = input('본인의 키는?\n')
-
-# print('좋아하는 숫자는?')
-# number = input()
-
-# print('키와 좋아하는 숫자의 합은 %s 입니다.' % (height + number))
-
