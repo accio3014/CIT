@@ -7,6 +7,7 @@
 # 리스트의 값을 가지고 올 때는 대괄호([])를 이용하여 참조
 
 # list1 = [1, 'cit', True]
+# print(list1)
 # print(list1[0])     # list1 리스트의 0번째 값을 가지도 옴
 # print(list1[2])
 # print(list1[3])     # list1 리스트의 3번째 값은 없으므로 에러 발생
@@ -35,28 +36,28 @@
 # ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ #
 
 
-# list1 = [ 'abc', 'dfg', 'hij', 123, 456 ]
+# list1 = ['abc', 'dfg', 'hij', 123, 456]
 # print(list1)
 # print()
 
-# print('Q1. list1의 1번째 원소를 "park"로 고치시오. ')
+# print("Q1. list1의 1번째 원소를 'park'로 고치시오.")
 # list1[1] = 'park'
-# print('Q1 :', list1)
+# print(list1)
 # print()
 
 # print('Q2. 변수 이름을 "arr"”로 하고 다음 리스트를 대입(저장)하시오.[ 4, 8, 12, 16, 20, 24, 28, 32 ]')
 # arr = [4, 8, 12, 16, 20, 24, 28, 32]
-# print('Q2 :', arr)
+# print(arr)
 # print()
 
 # print('Q3. arr의 4번째 원소를 "cit"로 하시오. 단 맨 왼쪽의 원소가 0번째 원소다.')
 # arr[4] = 'cit'
-# print('Q3 :', arr)
+# print(arr)
 # print()
 
 # print('Q4. print(list1)와 print(arr)을 실행하시오.')
-# print('Q4 :', list1)
-# print('Q4 :', arr)
+# print(list1)
+# print(arr)
 
 
 # ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ #
@@ -103,7 +104,7 @@
 # 인덱스 번호가 리스트의 범위를 벗어나는 경우 값을 리스트 제일 뒤에 추가됨
 
 # 리스트명.append(추가할 값)
-# appened() 함수는 리스트 제일 뒤에 값을 추가
+# append() 함수는 리스트 제일 뒤에 값을 추가
 
 # del(리스트명[인덱스 번호])
 # del()함수는 인덱스 번호에 해당 하는 값을 리스트에서 삭제
@@ -133,6 +134,8 @@
 # 리스트명.sort()
 # sort()함수는 리스트의 내용을 오름차순으로 정렬
 
+# insert()와 같이 리스트 변수와 .을 같이 사용하는 함수는 리스트에서만 사용가능하고
+# del(), len(), sum()의 경우는 리스트 말고도 다른 자료형에서도 사용 가능
 
 
 # ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ #
@@ -145,44 +148,46 @@
 # print('Q1. append 함수를 사용해 list0에 1, 2, 3, 4, 5, 6, 7, 8, 9 를 차례로 추가하시오. (반복문을 사용해도 좋다.)')
 # for i in range(1, 10, 1):
 #     list0.append(i)
-# print('Q1 :', list0)
+# print(list0)
 # print()
 
 # print('Q2. insert 함수를 사용해 list0의 0번째에 0을 추가하시오.')
 # list0.insert(0,0)
-# print('Q2 :', list0)
+# print(list0)
 # print()
 
 # print('Q3. del 함수를 이용해 list0의 3번째 원소를 삭제하시오.')
 # del(list0[3])
-# print('Q3 :',list0)
+# print(list0)
 # print()
 
 # print('Q4. del 함수를 이용해 list0의 5번째 원소를 삭제하시오.')
 # del(list0[5])
-# print('Q4 :',list0)
+# print(list0)
 # print()
 
 # print('Q5. remove 함수를 이용해 list0에서 1을 삭제하시오.')
 # list0.remove(1)
-# print('Q5 :',list0)
+# print(list0)
 # print()
 
 # print('Q6. index 함수를 이용해 list0에서 5가 몇 번째에 위치했는지 출력하시오.')
-# print('Q6 :',list0.index(5))
+# print(list0.index(5))
 # print()
 
 # print('Q7. index 함수를 이용해 list0에서 6이 존재하는 지 확인하시오. 몇 번째에 위치했는지 출력하시오.')
-# # print('Q7 :',list0.index(6))
+# try :
+#     print(list0.index(6))
+# except :
+#     print('list0에 5가 없음')
 # print()
 
-
 # print('Q8. len 함수를 이용해 list0의 원소의 개수를 출력하시오.')
-# print('Q8 :', len(list0))
+# print(len(list0))
 # print()
 
 # print('Q9. print(list0)을 하여 리스트를 출력하시오.')
-# print('Q9 :', list0)
+# print(list0)
 # print()
 
 
@@ -196,26 +201,26 @@
 # print("Q1. 'Sat'와 'Sun'을 차례로 뒤에 추가하시오")
 # week.append('Sat')
 # week.append('Sun')
-# print('Q1 :', week)
+# print(week)
 # print()
 
 # print("Q2. 첫 번째 'Thu'를 지우고 그 자리에 'Tue'를 삽입하시오.")
 # t_idx = week.index('Thu')
-# week.remove('Thu')
+# del(week[t_idx])
 # week.insert(t_idx, 'Tue')
-# print('Q2 :', week)
+# print(week)
 # print()
 
 # print("Q3. 'Wed'의 인덱스를 출력하시오.")
-# print('Q3 :', week.index('Wed'))
+# print(week.index('Wed'))
 # print()
 
 # print("Q4. week 리스트 변수의 원소의 개수를 출력하시오.")
-# print('Q4 :', len(week))
+# print(len(week))
 # print()
 
 # print('Q5. print(week)를 실행하시오.')
-# print('Q5 :', week)
+# print(week)
 
 
 # ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ #
@@ -228,31 +233,31 @@
 # 10
 # 0
 # 평균은 15 입니다.
-# number = []
-# print('점수를 입력하세요. (끝낼 시 0을 입력)')
+
+# numbers = []
+# print("점수를 입력하세요. (끝낼 시 0을 입력)")
 # while(True):
-    
 #     num = int(input())
 
 #     if(num == 0):
 #         break
 #     else:
-#         number.append(num)
+#         numbers.append(num)
 
-# avg = int(sum(number) / len(number))
-# print('평균은 %d 입니다.' % avg)
-# print(number)
+# avg = int(sum(numbers) / len(numbers))
+# print("평균은 %d 입니다." % avg)
+# print(numbers)
 
 
 # ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ #
 
 
 # in
-# in은 리스트에 해당 값이 있는 없는지를 True, False로 알려줌
+# in은 리스트에 해당 값이 있는지 없는지를 True, False로 알려줌, if에 주로 사용
 # 찾을값 in 리스트명
 # 위 형식으로 사용함
 
-# numbers = [1,2,3,4,5]
+# numbers = [1, 2, 3, 4, 5]
 # print(2 in numbers)
 # print(8 in numbers)
 
@@ -372,3 +377,11 @@
 # b = [2, 3, 4]
 # c = a + b
 # print(c)
+
+
+# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ #
+
+
+# a = [0, 10, 20, 30, 40, 50, 60, 70, 80, 90]
+# a[2:5] = ['a', 'b', 'c']    # 인덱스 2부터 4까지 값이 사라지고 해당 위치에 값을 넣음
+# print(a)

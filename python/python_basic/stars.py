@@ -148,19 +148,19 @@
 # * * * * * 
 #   * * * 
 #     * 
-# x = int(5/2) + 1
+# line = int(5/2) + 1
 
-# for i in range(1, 2*x, 1):
-#     if(i<=x):
-#         for j in range(0, x-i, 1):
+# for i in range(1, 2*line, 1):
+#     if(i<=line):
+#         for j in range(0, line-i, 1):
 #             print('  ', end='')
 #         for j in range(0, 2*i-1, 1):
 #             print('* ', end='')
 #         print()
 #     else:
-#         for j in range(0, i-x, 1):
+#         for j in range(0, i-line, 1):
 #             print('  ', end='')
-#         for j in range(0, (2*x-i)*2-1, 1):
+#         for j in range(0, (2*line-i)*2-1, 1):
 #             print('* ', end='')
 #         print()
 

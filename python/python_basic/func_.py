@@ -5,7 +5,7 @@
 
 # def function_name(parameter):
 #       codes...
-#       return value(variavle)
+#       return value[variable]
 
 # 위 형식으로 함수를 직접 만들 수 있으며 만든 함수 실행의 경우 아래와 같음
 # funcation_name(argument)
@@ -13,14 +13,14 @@
 # parameter : 함수 내부에서 사용하는 변수
 # return    : 함수를 종료하며, 특정 값을 함수를 실행한 곳으로 돌려줄 수 있음
 # argument  : 함수를 실행할 때 넘겨주는 값
-# parameter, return은 필수가 아님
-# 함수를 정의할 때 parameter의 수와 함수를 실행할때의 argument의 개수는 같아야 함
+# parameter, return, argument는 필수가 아님
+# 함수를 정의할 때 parameter의 개수와 함수를 실행할때의 argument의 개수는 같아야 함
 
 
-# def a():
+# def a():                # parameter, return이 없는 경우
 #     print("Hello")
 
-# def b(name):
+# def b(name):            # return이 없는 경우
 #     print(name,"Hi")
 
 # def c(a):
@@ -28,9 +28,9 @@
 
 # a()
 # b("Jeong")
-# var = c(5)
+# var = c(5)              # 보통 return이 있는 함수의 경우 변수랑 같이 사용
 # print(var)
-
+# b(var)
 
 
 # ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ #
@@ -64,16 +64,29 @@
 #     for i in score:
 #         if(i >= 50):
 #             over.append(i)
-
+    
 #     return over
-
 
 # def average(score):         # 평균을 구함
 #     print(sum(score) / len(score))
 
+
 # score = [51, 99, 78, 34, 75, 22, 12]
 # over_50 = check_score(score)    # check_score 함수를 통해서 50점 이상인 점수를 over_50 변수에 저장
+# print(over_50)
 # average(over_50)                # 50점 이상인 점수의 평균을 구함
+
+
+# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ #
+
+
+# def star(n):
+#     print("*" + " "*n + "*" + " "*(5-n) + "*")
+#     blank = ' '
+#     print("*%s*%s*" % (blank*n, blank*(5-n)))
+
+# for i in range(0, 6, 1):
+#     star(i)
 
 
 # ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ #
@@ -118,18 +131,6 @@
 # print(bmi)
 # print(BMI(178, 80))                     # BMI 함수에서 리턴된 값을 출력
 # print(bmi)                              # BMI 함수에서 global 키워드를 이용하여 bmi 변수의 값을 변경함
-
-
-# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ #
-
-
-# def star(n):
-#     # print("*"+" "*n+"*"+" "*(5-n)+"*")
-#     blank = ' '
-#     print("*%s*%s*" % (blank*n, blank*(5-n)))
-
-# for i in range(0, 6, 1):
-#     star(i)
 
 
 # ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ #
@@ -182,9 +183,7 @@
 #     d = a * b
 #     if(a <= 4):
 #         print('@'*a,end='')
-#         print(' ', end='')
 #         print('^'*b,end='')
-#         print(' ', end='')
 #         return at(c,d)
 #     else:
 #         return

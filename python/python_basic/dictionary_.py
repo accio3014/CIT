@@ -66,27 +66,27 @@
 
 # Americano = {'Starlucks': 3700, 'Mollys': 4100, 'Anzelinus': 4900, 'Coffeejean': 4800}
 # print(Americano)
-# print('='*20)
+# print()
 
 # 딕셔너리 for문의 특징
 # 키만 출력
 # for i in Americano:
 #     print(i)
-# print('='*20)
+# print()
 
 # 값만 출력
 # for i in Americano.values():
 #     print(i)
-# print('='*20)
+# print()
 
 # for x in Americano :
 # 	print(Americano[x])
-# print('='*20)
+# print()
 
 # 키와 값 모두 출력
 # for x, y in Americano.items() :
 # 	print(x, y)
-# print('='*20)
+# print()
 
 
 # +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ #

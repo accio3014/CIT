@@ -7,7 +7,7 @@
 # print(string[3])
 # print(string[6])
 
-# 슬라이싱을 이용하여 문자열의 일부분의 값을 가지고 올 수 있슴
+# 슬라이싱을 이용하여 문자열의 일부분의 값을 가지고 올 수 있음
 # print(string[1:4])  # string 변수의 문자열 인덱스의 1부터 4까지의 값을 가지고 옴(4는 포함 X)
 # print(string[5:9])  # string 변수의 문자열 인덱스의 5부터 9까지의 값을 가지고 옴(9는 포함 X)
 
@@ -87,7 +87,6 @@
 # print(score)
 # print()
 
-
 # print('Q1. name에서 “sona”를 “kona”로 바꾸시오. replace() 함수 이용')
 # if("sona" in name):                                 # 먼저 'sona'가 리스트에 있는지 확인
 #     idx = name.index("sona")                        # 값 변경을 위한 'sona'의 인덱스 번호 찾아 idx 변수에 저장
@@ -95,7 +94,7 @@
 # else:                                               # 'sona'가 리스트에 없는 경우
 #     print("sona 없음")
 # print(name)
-# print()                                             
+# print()
 
 # print("Q2. name의 모든 'o'를 \"ecoto\"로 바꾸시오. replace() 함수 이용")
 # for i in name:                                      # name 리스트의 값을 전체 반복 하여 변수i에 저장
@@ -118,6 +117,7 @@
 #         del(name[idx])                              # 'co'가 들어간 문자열을 리스트에서 삭제
 #         # name = name + sp                            # 'co'를 기준으로 나눠진 리스트(sp)와 기존의 리스트(name)를 더함
 #                                                     # append를 안하는 이유는 append를 사용할 경우 2중 리스트가 됨
+#                                                     # 아래 반복문을 사용하던지, 현재 코드의 리스트의 덧셈을 사용하던지 둘중 하나를 진행해야 함
                                                     
 #         for k in sp:                                # 반복문을 사용하여 분할된 문자열이 있는 sp리스트의 값을 name 변수에 저장
 #             name.append(k)
@@ -130,8 +130,8 @@
 # print()
 
 # print('Q6 score의 평균을 구하고 출력하시오.')
-# sum = sum(score) / len(score)
-# print(sum)
+# avg = sum(score) / len(score)
+# print(avg)
 
 
 # +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ #

@@ -125,14 +125,6 @@
 # +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ #
 
 
-# input('strings' or variable)
-# After outputting a string or variable, receive input from the keyboard until entering Enter Key.
-# Doesn't matter if you don't insert strings or variables
-# variable = input('strings' or variable)
-# The above format is commonly used. The reason is that if input('string' or variable) is used only like this
-# since the value cannot be stored, use the above format to store the value in a variable.
-# input() unconditionally stores the value as a str
-
 # input('문자' or 변수)
 # '문자' 또는 변수를 출력한 후 엔터키를 누르기 전까지 키보드 입력을 받음
 # '문자' 또는 변수는 생략 가능
@@ -140,15 +132,25 @@
 # 위 형식을 주로 사용, input()만 사용했을 경우 입력 값을 저장하지 못함
 # input()은 무조건 str 자료형으로 값을 저장함
 
-var1 = 2            
-var2 = input()      
-print(type(var2))   
+# var1 = 2
+# var2 = input()
+# print(type(var2))
 
-var2 = int(var2)    
-print(type(var2))   
+# var2 = int(var2)
+# print(type(var2))
 
-sum = var1 + var2   
-print(sum)          
+# sum = var1 + var2
+# print(sum)
+
+# var1 = 2            
+# var2 = input()      
+# print(type(var2))   
+
+# var2 = int(var2)    
+# print(type(var2))   
+
+# sum = var1 + var2   
+# print(sum)          
 
 
 # 안녕하세요. 이름을 입력해주세요.
@@ -172,8 +174,8 @@ print(sum)
 # *     곱하기
 # /     나누기(소수로 나옴)
 # //    몫(정수로 나옴)
-# %     나머지
-# **    제곱
+# # %     나머지
+# # **    제곱
 
 # a = 10
 # b = 3
@@ -184,38 +186,6 @@ print(sum)
 # print(a//b)
 # print(a%b)
 # print(a**b)
-
-
-# +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ #
-
-
-# 두 개의 숫자를 입력해주세요
-# 10
-# 2
-# 어떤 계산을 실행할까요?
-# (1 : 곱하기, 2 : 나누기, 3 : 더하기, 4 : 빼기) 
-# 1
-# 곱하기를 선택하셨습니다. 10 * 2 = 20 입니다.
-# print('두 개의 숫자를 입력해주세요')
-# num1 = int(input())
-# num2 = int(input())
-# print('어떤 계산을 실행할까요?')
-# print('(1 : 곱하기, 2 : 나누기, 3 : 더하기, 4 : 빼기)')
-# choice = int(input())
-
-# if(choice == 1):
-#     result = num1 * num2
-#     print('곱하기를 선택하셨습니다. %d * %d = %d입니다.' % (num1, num2, result))
-# elif(choice == 2):
-#     result = num1 // num2
-#     print('나누기를 선택하셨습니다. %d / %d = %d입니다.' % (num1, num2, result))
-# elif(choice == 3):
-#     result = num1 + num2
-#     print('더하기를 선택하셨습니다. %d + %d = %d입니다.' % (num1, num2, result))
-# elif(choice == 4):
-#     result = num1 - num2
-#     print('빼기를 선택하셨습니다. %d - %d = %d입니다.' % (num1, num2, result))
-
 
 
 # +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ #
@@ -232,14 +202,3 @@ print(sum)
 # print(num1 * num2)
 # print(num1 // num2)
 # print(num1 % num2)
-
-
-
-# print('본인의 키는?')
-# height = input('본인의 키는?\n')
-
-# print('좋아하는 숫자는?')
-# number = input()
-
-# print('키와 좋아하는 숫자의 합은 %s 입니다.' % (height + number))
-
